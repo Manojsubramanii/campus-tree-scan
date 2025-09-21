@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        forest: {
+          primary: "hsl(var(--forest-primary))",
+          secondary: "hsl(var(--forest-secondary))",
+        },
+        earth: {
+          primary: "hsl(var(--earth-primary))",
+          secondary: "hsl(var(--earth-secondary))",
+        },
+        nature: {
+          light: "hsl(var(--nature-light))",
+          lighter: "hsl(var(--nature-lighter))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +70,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-forest': 'var(--gradient-forest)',
+        'gradient-earth': 'var(--gradient-earth)',
+        'gradient-nature': 'var(--gradient-nature)',
+      },
+      boxShadow: {
+        'nature': 'var(--shadow-nature)',
+        'card': 'var(--shadow-card)',
+        'glow': 'var(--shadow-glow)',
+      },
+      transitionProperty: {
+        'nature': 'var(--transition-nature)',
       },
       borderRadius: {
         lg: "var(--radius)",

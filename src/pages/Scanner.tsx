@@ -1,13 +1,13 @@
 import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
+import QRScanner from "@/components/QRScanner";
 
-const Index = () => {
+const Scanner = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <Hero />
+      <QRScanner />
     </div>
   );
 };
 
-export default Index;
+export default Scanner;

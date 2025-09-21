@@ -1,11 +1,11 @@
 import Navigation from "@/components/Navigation";
-import AdminLoginComponent from "@/components/AdminLogin";
+import TreeRegistrationForm from "@/components/TreeRegistrationForm";
 
 const AdminLogin = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <AdminLoginComponent />
+      <TreeRegistrationForm />
     </div>
   );
 };

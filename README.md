@@ -1,6 +1,10 @@
 # Tree Documentation Project
 
 ## Project info
+◦ The Campus Tree Management Project is a digital platform that helps record and manage details of trees across the
+campus
+◦ It allows admins to add tree information with auto-generated QR codes, enabling users to scan and view details or
+share comments about each tree
 
 ## How can I edit this code?
 
